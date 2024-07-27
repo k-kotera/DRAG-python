@@ -3,11 +3,11 @@ This is an unofficial python implementation of DRAG algorithm, which efficiently
 
 ## Example
 ```python
-from drag import drag
+from drag import DRAG
 
 window_size = 100
 discord_defining_range = 10.
-C, C_dist = drag(X, window_size, discord_defining_range)
+C, C_dist = DRAG(X, window_size, discord_defining_range)
 ```
 
 ## References
